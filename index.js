@@ -3,10 +3,10 @@ var fs = require("fs");
 const { Base64Decode } = require("base64-stream");
 var Imap = require("imap");
 var imap = new Imap({
-  user: "hr@nithiresearch.com",
-  password: "Sure12#$",
-  host: "adbsys.adbsystems.com.au",
-  port: 993,
+  user: "",
+  password: "",
+  host: "",
+  port: ,
   tls: true,
   //   ,debug: function(msg){console.log('imap:', msg);}
 });
